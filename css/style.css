@@ -1,0 +1,304 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+body {
+  font-family: "Lato";
+  background-color: #282828;
+}
+
+.page {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 35px 500px 680px 483px;
+  background: url(../img/bg_block_1.png) left no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #4d4959;
+  font-size: 13px;
+  text-transform: uppercase;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+}
+.header__about-title {
+  white-space: nowrap;
+  margin-right: 36px;
+  margin-top: -8px;
+}
+.header__dot {
+  margin-right: 31px;
+  margin-top: -8px;
+}
+.header__work-title {
+  margin-right: 61px;
+  margin-top: -8px;
+}
+.header__image {
+  margin-right: 64px;
+}
+.header__shop-title {
+  margin-right: 30px;
+  margin-top: -8px;
+}
+.header__dot {
+  margin-right: 31px;
+  margin-top: -8px;
+}
+.header__contact-title {
+  margin-top: -8px;
+}
+
+.description {
+  padding: 117px 0 135px;
+  text-align: center;
+  background-color: #f7f7f7;
+}
+.description__image {
+  margin-bottom: 32px;
+}
+.description__text {
+  margin: 0 auto;
+  margin-top: 22px;
+  width: 67.6%;
+  line-height: 34px;
+  font-size: 18px;
+  color: #848789;
+}
+
+.block-title {
+  text-transform: uppercase;
+  color: #353738;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.vintage-oliva {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.vintage-oliva__main-image {
+  background: url(../img/vintage-oliva-logo.png) center no-repeat;
+}
+.vintage-oliva__picture1 {
+  position: relative;
+  z-index: -1;
+}
+.vintage-oliva__description {
+  padding-top: 70px;
+  text-align: center;
+  background-color: #fff;
+}
+.vintage-oliva__icon {
+  margin-bottom: 29px;
+}
+.vintage-oliva__text {
+  padding: 0 56px 0 69px;
+  margin-top: 14px;
+  text-align: justify;
+  font-size: 16px;
+  color: #848789;
+  line-height: 30px;
+}
+.vintage-oliva__underline {
+  margin: 0 auto;
+  height: 35px;
+  width: 50px;
+  border-bottom: 1px solid rgba(132, 135, 137, 0.3);
+  margin-bottom: 54px;
+  position: relative;
+}
+.vintage-oliva__underline::after {
+  content: "";
+  margin-top: 89px;
+  position: absolute;
+  border: 10.5px solid transparent;
+  border-top: 11px solid #fff;
+  left: 30%;
+}
+
+.la-boriosa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.la-boriosa__main-image {
+  background: url(../img/la-boriso-logo.png) center no-repeat;
+}
+.la-boriosa__picture1 {
+  position: relative;
+  z-index: -1;
+}
+.la-boriosa__description {
+  padding-top: 61px;
+  text-align: center;
+  background-color: #fff;
+}
+.la-boriosa__icon {
+  margin-bottom: 27px;
+}
+.la-boriosa__text {
+  padding: 0 56px 0 69px;
+  margin-top: 14px;
+  text-align: justify;
+  font-size: 16px;
+  color: #848789;
+  line-height: 30px;
+}
+.la-boriosa__underline {
+  margin: 0 auto;
+  height: 35px;
+  width: 50px;
+  border-bottom: 1px solid rgba(132, 135, 137, 0.3);
+  margin-bottom: 63px;
+  position: relative;
+}
+.la-boriosa__underline::after {
+  content: "";
+  margin-top: 98px;
+  position: absolute;
+  border: 10.5px solid transparent;
+  border-top: 11px solid #fff;
+  left: 30%;
+}
+
+.hulot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.hulot__main-image {
+  background: url(../img/hulot-logo.png) center no-repeat;
+}
+.hulot__picture1 {
+  position: relative;
+  z-index: -1;
+}
+.hulot__description {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 58px;
+  text-align: center;
+  background-color: #fff;
+}
+.hulot__icon {
+  margin-bottom: 22px;
+}
+.hulot__text {
+  padding: 0 56px 0 69px;
+  margin-top: 14px;
+  text-align: justify;
+  font-size: 16px;
+  color: #848789;
+  line-height: 30px;
+}
+.hulot__underline {
+  margin: 0 auto;
+  height: 35px;
+  width: 50px;
+  border-bottom: 1px solid rgba(132, 135, 137, 0.3);
+  margin-bottom: 62px;
+  position: relative;
+}
+.hulot__underline::after {
+  content: "";
+  margin-top: 97px;
+  position: absolute;
+  border: 10.5px solid transparent;
+  border-top: 11px solid #fff;
+  left: 30%;
+}

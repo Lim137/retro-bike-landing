@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+
+// Файл обнуляющих стилей
+@import "nullstyle.scss";
+
+$colorheader: #4d4959;
+$colordescription: #f7f7f7;
+$colordescriptiontext: #848789;
+
+body {
+	font-family: 'Lato';
+	background-color: #282828;
+}
+
+.page {
+	max-width: 1600px;
+	margin: 0 auto;
+}
+
+.header {
+	padding: 35px 500px 680px 483px;
+	background: url(../img/bg_block_1.png) left no-repeat;
+	display: flex;
+	color: $colorheader;
+	font-size: 13px;
+	text-transform: uppercase;
+	align-items: center;
+	font-weight: 700;
+	letter-spacing: 2.5px;
+	
+
+	&__about-title {
+		white-space: nowrap;
+		margin-right: 36px;
+		margin-top: -8px;
+	}
+
+	&__dot {
+		margin-right: 31px;
+		margin-top: -8px;
+	}
+
+	&__work-title {
+		margin-right: 61px;
+		margin-top: -8px;
+	}
+
+	&__image {
+		margin-right: 64px;
+	}
+
+	&__shop-title {
+		margin-right: 30px;
+		margin-top: -8px;
+	}
+
+	&__dot {
+		margin-right: 31px;
+		margin-top: -8px;
+	}
+
+	&__contact-title{
+		margin-top: -8px;
+	}
+}
+
+
+.container {
+}
+
+.description {
+	padding: 117px 0 135px;
+	text-align: center;
+	background-color: $colordescription;
+
+	&__image {
+		margin-bottom: 32px;
+	}
+
+	&__text {
+		margin: 0 auto;
+		margin-top: 22px;
+		width: 67.6%;
+		line-height: 34px;
+		font-size: 18px;
+		color: $colordescriptiontext;
+	}
+}
+
+.block-title {
+	text-transform: uppercase;
+	color: #353738;
+	font-weight: 700;
+	font-size: 18px;
+	
+}
+
+
+
+.vintage-oliva {
+	display: flex;
+
+	&__main-image {
+		background: url(../img/vintage-oliva-logo.png)center no-repeat;
+		}
+
+	&__picture1{
+		position: relative;
+		z-index: -1;
+	}
+
+	&__description {
+		padding-top: 70px;
+		text-align: center;
+		background-color: #fff;
+	}
+
+	&__icon {
+		margin-bottom: 29px;
+	}
+
+	&__text {
+		padding: 0 56px 0 69px;
+		margin-top: 14px;
+		text-align: justify;
+		font-size: 16px;
+		color: #848789;
+		line-height: 30px;
+	}
+
+	&__underline {
+		margin: 0 auto;
+		height: 35px;
+		width: 50px;
+		border-bottom: 1px solid rgba($color: #848789, $alpha: 0.3);
+		margin-bottom: 54px;
+		position: relative;
+	}
+
+	&__underline::after{
+		content: '';
+		
+		margin-top: 89px;
+		position: absolute;
+		border: 10.5px solid transparent; 
+		border-top: 11px solid #fff;
+		left: 30%;
+		}
+}
+
+.la-boriosa {
+	display: flex;
+
+	&__main-image {
+		background: url(../img/la-boriso-logo.png)center no-repeat;
+		}
+
+	&__picture1{
+		position: relative;
+		z-index: -1;
+	}
+
+	&__description {
+		padding-top: 61px;
+		text-align: center;
+		background-color: #fff;
+	}
+
+	&__icon {
+		margin-bottom: 27px;
+	}
+
+	&__text {
+		padding: 0 56px 0 69px;
+		margin-top: 14px;
+		text-align: justify;
+		font-size: 16px;
+		color: #848789;
+		line-height: 30px;
+	}
+
+	&__underline {
+		margin: 0 auto;
+		height: 35px;
+		width: 50px;
+		border-bottom: 1px solid rgba($color: #848789, $alpha: 0.3);
+		margin-bottom: 63px;
+		position: relative;
+	}
+
+	&__underline::after{
+		content: '';
+		
+		margin-top: 98px;
+		position: absolute;
+		border: 10.5px solid transparent; 
+		border-top: 11px solid #fff;
+		left: 30%;
+		}
+}
+
+.hulot {
+	display: flex;
+
+	&__main-image {
+		background: url(../img/hulot-logo.png)center no-repeat;
+		}
+
+	&__picture1{
+		position: relative;
+		z-index: -1;
+	}
+
+	&__description {
+		flex-direction: column;
+		padding-top: 58px;
+		text-align: center;
+		background-color: #fff;
+	}
+
+	&__icon {
+		margin-bottom: 22px;
+	}
+
+	&__text {
+		padding: 0 56px 0 69px;
+		margin-top: 14px;
+		text-align: justify;
+		font-size: 16px;
+		color: #848789;
+		line-height: 30px;
+	}
+
+	&__underline {
+		margin: 0 auto;
+		height: 35px;
+		width: 50px;
+		border-bottom: 1px solid rgba($color: #848789, $alpha: 0.3);
+		margin-bottom: 62px;
+		position: relative;
+	
+	}
+
+	&__underline::after{
+		content: '';
+		
+		margin-top: 97px;
+		position: absolute;
+		border: 10.5px solid transparent; 
+		border-top: 11px solid #fff;
+		left: 30%;
+	}
+}
+
+
+
+
+
+
+
+
+
