@@ -304,7 +304,7 @@ body {
 }
 
 .feedback {
-  padding: 124px 0 50px;
+  padding: 124px 0 68px;
   background-color: #f7f7f7;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -321,9 +321,7 @@ body {
   margin-bottom: 35px;
 }
 .feedback__content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -331,6 +329,10 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  margin-bottom: 100px;
 }
 .feedback__twitter-address {
   color: #353738;
@@ -350,4 +352,98 @@ body {
   line-height: 34px;
   font-style: italic;
   color: #848789;
+}
+
+.tabs__buttons {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.labell {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  border: 1px solid #c9c9c9;
+  margin-right: 9px;
+}
+.labell:last-child {
+  margin-right: 0;
+}
+.labell:focus {
+  background-color: #a9afb3;
+}
+
+input[name=tab-btn] {
+  display: none;
+}
+
+#tab1:checked ~ .comment-box #content1,
+#tab2:checked ~ .comment-box #content2,
+#tab3:checked ~ .comment-box #content3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.showcase {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.board-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.board-1__first-half {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.board-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.board-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.board-3__first-half {
+  background: rgba(88, 165, 137, 0.8), url(../img/showcase-pic1-block3.jpg) no-repeat;
+  width: 533px;
+  height: 267px;
+}
+
+.board-3__image-1 {
+  width: auto;
+  height: auto;
+}
+
+.board-3__second-half {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
